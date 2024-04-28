@@ -5,7 +5,7 @@ pipeline {
       stage('checkout') {
            steps {
 
-                git branch: 'master', url: 'https://github.com/DivyaBharathwaj/Purdue_Project.gi'
+                git branch: 'master', url: 'https://github.com/DivyaBharathwaj/Purdue_Project.git'
 
           }
         }
