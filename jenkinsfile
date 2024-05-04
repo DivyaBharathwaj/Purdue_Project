@@ -43,8 +43,8 @@ stage('Docker Build and Tag') {
  stage('Run Docker on Jenkins') {
              
             steps {
-               // sh "docker -H ssh://jenkins@172.31.28.25 run -d -p 8003:8080 deeshuec2/samplewebapp"
-               sh "docker run -d -p 8003:8080 deeshuec2/abctechapp"
+               // sh "docker -H ssh://jenkins@172.31.28.25 run -d -p 8003:8080 divyabharathwaj/samplewebapp"
+               sh "docker run -d -p 8003:8080 divyabharathwaj/abctechapp"
 
             }
         }
